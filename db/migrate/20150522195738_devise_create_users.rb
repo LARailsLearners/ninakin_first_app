@@ -32,7 +32,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
 
       t.string :firstName
       t.string :lastName
-      t.string :email
+      #t.string :email
 
       t.timestamps
     end
